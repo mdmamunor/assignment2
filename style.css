@@ -247,4 +247,33 @@ body{
     margin-top: 17px;
     margin-right: 29px;
 }
-
+/* --------------
+Media quieries
+---------------- */
+/* --------------------
+Mobile device
+------------------- */
+@media only screen and (max-width:688px){
+    .container{width: 100%}
+    .collections , .last-banner {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .banner , .last-banner{
+        flex-direction: column;
+    }
+    .banner-title{
+        font-size: 20px;
+    }
+    .banner-text{
+        justify-content: center;
+    }
+}
+/* -----------------
+tablet devices
+----------------- */
+@media only screen and (min-width:688px) and (max-width:992px;) {
+    .collections {
+        grid-template-rows: repeat(2,1fr);
+    }
+ 
+}
