@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.header{
+   display:grid;
+   grid-template-columns: repeat(2,1fr);
+   align-items: center;
+   justify-content: center;
+   margin-top: 70px;
+   
+
+}
+
+}
+.icon-header{
+    white-space: nowrap;
+    
+    
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.banner{
+    display: flex;
+    height: 100vh;
+
+}
+.banner-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.banner-right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-title{
+    font-size: 40px;
+    white-space: nowrap;
+    position: relative;
+    color: transparent;
+}
+.banner-title::before{
+    content: 'Start your Journey as Influencer';
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #22bedd;
+    animation: typing 3s linear infinite;
+}
+.banner-text{
+    line-height: 2;
+}
+.button{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 30px;
+    background-color: rgba(85, 5, 65, 0.801);
+    color:white ;
+    border-radius: 30px;
+    cursor: pointer;
+}
+@keyframes typing {
+    0%{
+        content: 'S|';
+    }
+    3%{
+        content: 'St|';
+    }
+    0%{
+        content: 'S|';
+    }
+    6%{
+        content: 'Sta|';
+    }
+    9%{
+        content: 'Star|';
+    }
+    12%{
+        content: 'Start|';
+    }
+    015%{
+        content: 'Start |';
+    }
+    018%{
+        content: 'Start Y|';
+    }
+    21%{
+        content: 'Start Yo|';
+    }
+    24%{
+        content: 'Start You|';
+    }
+    27%{
+        content: 'Start Your|';
+    }
+    30%{
+        content: 'Start Your |';
+    }
+    33%{
+        content: 'Start Your J|';
+    }
+    36%{
+        content: 'Start Your Jo|';
+    }
+    39%{
+        content: 'Start Your Jou|';
+    }
+    42%{
+        content: 'Start Your Jour|';
+    }
+    45%{
+        content: 'Start Your Journ|';
+    }
+    48%{
+        content: 'Start Your Journe|';
+    }
+    51%{
+        content: 'Start Your Journey|';
+    }
+    54%{
+        content: 'Start Your Journey |';
+    }
+    57%{
+        content: 'Start Your Journey a|';
+    }
+    60%{
+        content: 'Start Your Journey as|';
+    }
+    63%{
+        content: 'Start Your Journey as |';
+    }
+    66%{
+        content: 'Start Your Journey as I|';
+    }
+    69%{
+        content: 'Start Your Journey as In|';
+    }
+    72%{
+        content: 'Start Your Journey as Inf|';
+    }
+    75%{
+        content: 'Start Your Journey as Infl|';
+    }
+    78%{
+        content: 'Start Your Journey as Influ|';
+    }
+    81%{
+        content: 'Start Your Journey as Influe|';
+    }
+    84%{
+        content: 'Start Your Journey as Influen|';
+    }
+    87%{
+        content: 'Start Your Journey as Influenc|';
+    }
+    90%{
+        content: 'Start Your Journey as Influence|';
+    }
+    93%{
+        content: 'Start Your Journey as Influencer|';
+    }
+    94%,100%{
+        content: 'Start Your Journey as Influencer|';
+    }
+ }
+ 
