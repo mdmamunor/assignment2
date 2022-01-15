@@ -176,3 +176,38 @@ body{
     }
  }
  
+/* ------------ 
+ Popular Collection
+ -------------  */
+ .section-title{
+     margin: 50px 0;
+     text-align: center;
+ }
+ 
+ 
+ .collections{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     grid-column-gap: 24px;
+     border: 3px solid white;
+    gap: 34px;
+    margin-bottom: 55px;
+ }
+ 
+ .collection-info{
+     display: flex;
+ }
+ .fa-star.filled{
+     color: #FFC014;
+ }
+ .fa-star{
+     font-size: 12px;
+ }
+ .fa-star.empty{
+     color: #AEAEAE;
+ }
+ .right{
+     outline: none;
+     font-size: 18px;
+     margin-left: 85%;margin-bottom: 50px;
+ }
