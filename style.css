@@ -272,8 +272,13 @@ Mobile device
 tablet devices
 ----------------- */
 @media only screen and (min-width:688px) and (max-width:992px;) {
-    .collections {
-        grid-template-rows: repeat(2,1fr);
+    .container{
+        width: 100%;
     }
- 
+    .collections , .last-banner {
+        grid-template-columns: repeat(2,1fr);
+    }
+ .banner{
+     grid-template-columns: repeat(1,1fr);
+ }
 }
